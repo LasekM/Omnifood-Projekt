@@ -37,6 +37,7 @@ paragraph default: 1.6
 --- 06 BORDER-RADIUS
 
 default: 9px
+11px
 
 ---07 WHITESPACES
 
@@ -61,6 +62,7 @@ body {
   font-weight: 400;
   color: #555;
 }
+
 /**********************/
 /* GENERAL REUSABLE COMPONENTS */
 /**********************/
@@ -168,4 +170,8 @@ body {
 
 .grid-center-v {
   align-items: center;
+}
+
+strong {
+  font-weight: 500;
 }
