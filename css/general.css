@@ -34,9 +34,11 @@ paragraph default: 1.6
 #45260a
 - Accents:
 - Greys:
-#555
 #333
+#555
 #6F6F6F - lightest gray on background
+#767676 - lightest gray on white
+#888
 
 --- 05 SHADOWS
 
@@ -211,6 +213,10 @@ body {
 
 .grid--4--cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid-center-v {
